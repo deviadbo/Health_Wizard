@@ -1,0 +1,1395 @@
+/* general settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "abel";
+}
+
+.mobileNav {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color:#000000;
+    display: block;
+}
+
+/* a:active {
+    color: #000000;
+} */
+
+aside, 
+main, 
+footer, 
+header, 
+nav, 
+section {
+    display: block;
+}
+
+.wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#tabletSeperator {
+    display: none;
+}
+
+header {
+    width: 1366px;
+    height: 106px;    
+    background-color: #EBEBEB;
+    display: block;
+    position: relative;
+}
+
+
+#searchBar {
+    width: 261px;
+    height: 37px;
+    background-color: #FFFFFF;
+    left: 38px; 
+    top: 35px;
+    position: relative;
+    text-align: center;
+    border-width: 0; 
+    display: flex;
+}
+
+::placeholder {
+    color: #C0C0C0;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 37px;
+}
+
+#logoContainer {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: -13px;
+}
+
+#logoContainer > p {
+    margin-left: 16px;
+    margin-top: 18px;
+    color: #629C44;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.logo {
+    width: 58px;
+	height: 62px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#nameJobImg {
+    display: flex;
+    float: right;
+    position: relative;
+    top: -75px;
+    margin-left:1164px
+}
+
+#nameJobImg  > p {
+    margin-right: 16px;
+    margin-top: 9px;
+    font-size: 18px;
+}
+
+#nameJobImg > img {
+    margin-top: -10px;
+    margin-right: 23px;
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+.navItem {
+    list-style-type: none;
+}
+
+/* .mobileNav {
+    display: none;
+} */
+
+#nav1 {
+    display: flex;
+    margin: auto;
+    position: relative;
+    height:65px;
+    top: -60px;
+}
+
+#nav1 > li {
+    width:227.6px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.even {
+    background-color: #E6E6E6;
+}
+
+.odd {
+    background-color: #F2F2F2;
+}
+
+.selected {
+    background-color: #8FFF80;
+}
+
+#nav1 > li:hover {
+    background-color: #8FFF80;
+    opacity: 0.7;
+}
+
+#nav1 > li > a {
+    color: #232323;
+    position: relative;
+    top: 24px;
+}
+
+#breadcrumbsContainer {
+    width: 1366px;
+    height: 36px;
+    background-color: #F5F5F5;
+    align-items: center;
+    position: relative;
+    top: -60px;
+} 
+
+#breadcrumbsContainer > a {
+    color: #444444;
+    font-size: 16px;
+    margin-left: 37px;
+    position: relative;
+    top: 8px;
+    display: inline-block;
+}
+
+#breadcrumbsContainer :hover {
+    color: black;
+    font-weight: bold;
+}
+
+.prevBreadcrumbs {
+    text-decoration: underline;
+}
+
+footer {
+    height: 40px;
+    background-color: #EBEBEB;
+    margin-top: 25px;
+    color: black;
+    display: flex;
+    bottom: 0px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1366px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+/* Home Page */
+
+/* left side of the screen */
+#HomePageleftSide {
+    display: flex;
+    float: left;
+    margin-top: -65px;
+}
+
+#todo {
+    margin-left: 70px;
+    margin-top: 33px;
+    background-image: url("../images/todo\ list.png");
+    background-repeat: no-repeat;
+}
+
+#todo > p {
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.notifications {
+	width: 22px;
+	height: 22px;
+	background: #8FFF80;
+    opacity: 0.7;
+    border-radius: 100px;
+    position: relative;
+    bottom:30px;
+    right:10px;
+    padding-top: 3px;
+    font-size: 14px;
+	text-align: center;
+}
+
+.notificationsProducts {
+    left:2px;
+}
+
+#reviewPatients {
+    margin-top: 88px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#reviewPatientsTitle {
+    margin-left: -84px;
+}
+
+#reviewPatientsSub1Icon {
+    background-image: url("../images/rule\ Icon.png");
+    background-repeat: no-repeat;
+    margin-left: -47px;
+    padding-left: 73px;
+    position: relative;
+    top: 26px;
+}
+
+#reviewPatientsSub2Icon {
+    background-image: url("../images/new_icon.png");
+    background-repeat: no-repeat;
+    margin-left: -47px;
+    padding-left: 73px;
+    position: relative;
+    top: 26px;
+}
+
+#reviewProducts {
+    margin-top: 321px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -451px;
+}
+
+#reviewProductsTitle {
+    margin-left: -71px;
+}
+
+.reviewProductsSub {
+    margin-left: 74px;
+    margin-top: 36px;
+    
+}
+
+#reviewProductsSub1Icon {
+    background-image: url("../images/wrong\ nutritionals.png");
+    background-repeat: no-repeat;
+    margin-left: -35px;
+    padding-left: 73px;
+    position: relative;
+    top: 26px;
+
+}
+
+#reviewProductsSub2Icon {
+    background-image: url("../images/new\ products.png");
+    background-repeat: no-repeat;
+    margin-left: -35px;
+    padding-left: 73px;
+    position: relative;
+    top: 26px;
+
+}
+
+#reviewPatientsSub1Icon:hover,
+#reviewPatientsSub2Icon:hover,
+#reviewProductsSub1Icon:hover,
+#reviewProductsSub2Icon:hover {
+    color: #8FFF80;
+}
+
+/* seperates the sides */
+#verticalLine {
+	width: 0px;
+	height: 500px;
+	border-color: #7A7A7A;
+	border-width: 0.5px;
+	border-style: solid;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 30px; 
+    opacity: 0.3;
+}
+
+.horizontalLineLeftSide {
+	width: 550px;
+	height: 0px;
+	border-color: #d2d1d6;
+	border-width: 0.5px;
+	border-style: solid;
+    margin-left: 130px;
+    opacity: 0.3;
+    margin-top: 300px;
+    margin-left: -480px;
+}
+
+/* right side of the screen */
+#HomePagerightSide {
+    float: left;
+    margin-top: -65px;
+}
+
+#top3Title {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url("../images/top\ 3\ icon.png");
+    background-repeat: no-repeat;
+    margin-left: 256px;
+    margin-top: 33px;
+
+}
+
+#top3Title > p {
+    margin-left: 55px;
+}
+
+.textBelowImg {
+    margin-left: 160px;
+    margin-top: -30px;
+    font-size: 24px;
+}
+
+#first {
+    background-image: url("../images/first\ icon.png");
+    background-repeat: no-repeat;
+    margin-top: 135px;
+    margin-left: 154px;
+}
+
+#first > img {
+    margin-left: 90px;
+    margin-top: -50px;
+}
+
+#second {
+    background-image: url("../images/second\ icon.png");
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-left: 154px;
+    
+}
+
+#second > img {
+    margin-left: 90px;
+    margin-top: -35px;
+
+}
+
+#second > p {
+    margin-top: -11px;
+}
+
+#third {
+    background-image: url("../images/third\ icon.png");
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-left: 154px;
+}
+
+#third > img {
+    margin-left: 90px;
+    margin-top: -35px;
+}
+
+#third > p {
+    margin-top: -14px;
+}
+
+.zoomHover:hover{
+    transform: scale(1.1);
+    transition: ease 300ms;
+}
+
+.horizontalLineRightSide {
+	width: 465px;
+	height: 0px;
+	border-color: #d2d1d6;
+	border-width: 0.5px;
+	border-style: solid;
+    margin-left: 130px;
+    opacity: 0.3;
+    margin-top: 25px;
+
+}
+
+/* Patients' Exceptions Report */
+
+#patientsReportTable {
+    width: 1270px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+tr {
+    height: 70px;
+}
+
+td {
+    text-align:center;
+}
+
+#sel_fid {width: 500px;}
+
+.desc {text-align:center;}
+
+.row:hover {
+    background-color: #8FFF80;
+    opacity: 0.7;
+}
+
+.tableTitle {
+    background-color: #E6E6E6;
+}
+
+.fa-sort {
+    margin-left: 10px;
+    color: #AAAAAA;
+}
+
+.messageSentNo {
+    background-image: url("../images/no.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.messageSentYes {
+    background-image: url("../images/yes.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reviewProfileBtn {
+    width: 120px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #E6E6E6;
+    font-size: 18px;
+}
+
+.reviewProfileBtn:hover {
+    transform: scale(1.1);
+    transition: ease 300ms;
+    cursor: pointer;
+}
+
+.delProfileBtn {
+    margin-left: 20px;
+    background-color: #ff4d4d;
+
+}
+
+/* Review Profile */
+#reviewProfileLeftSide {
+    display: flex;
+    float: left;
+    margin-top: -65px;
+}
+
+#reviewProfileLeftSide > p {
+    display: block;
+}
+
+#patientImg {
+    margin-left: 64px;
+    margin-top: 46px;
+    width: 57px;
+    height: 57px;
+    border-radius: 100px;
+}
+
+#patientName {
+    margin-left: 22px;
+    margin-top: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.patientTitle {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.patientDit {
+    font-size: 18px;
+    font-weight:normal;
+    position: relative;
+    position: relative;
+}
+
+#dit1 {
+    position: relative;
+    top: 120px;
+    left: -147px;
+    display: flex;
+}
+
+
+#patientAgeTitle {
+    margin-left: 0px; 
+    margin-top: 0px;
+}
+
+#patientAge {
+    margin-left: 6px;
+}
+
+#patientNutTitle {
+    margin-top: 42px;
+    margin-left: -53px;
+}
+
+#patientNut {
+    margin-left: 6px;
+    margin-top: 42px; 
+}
+
+#patientGoalsTitle {
+    margin-top: 99px;
+    margin-left: -236px;
+}
+
+#ChecksGroup {
+    font-size: 18px;
+}
+
+#ChecksLeft {
+    margin-top: 145px;
+    margin-left: -234px;
+}
+
+#ChecksMid {
+    margin-top: -44px;
+    margin-left: 30px;
+}
+
+#ChecksRight {
+    margin-top: -46px;
+    margin-left: -100px;
+}
+
+#patientAppTitle {
+    margin-top: 242px;
+    margin-left: -335px;
+}
+
+#patientApp {
+    margin-top: 242px;
+    margin-left: 6px;
+}
+
+#patientSyncTitle {
+    margin-top: 266px;
+    margin-left: -261px;
+
+}
+
+#patientSync {
+    margin-top: 266px;
+    margin-left: 6px;
+}
+
+/* seperates the sides */
+#verticalLineReviewProfile {
+	width: 0px;
+	height: 500px;
+	border-color: #7A7A7A;
+	border-width: 0.5px;
+	border-style: solid;
+    float: left;
+    margin-left: 106px;
+    margin-bottom: 30px; 
+    opacity: 0.3;
+}
+
+
+/*Right side*/
+#ReviewProfile-RightSide {
+    float: left;
+    margin-top: -65px;
+}
+
+#patientPur {
+    margin-left: 114px; 
+    margin-top: 65px; 
+}
+#patientRep {
+    margin-left: 114px;
+    margin-top: 20px;
+}
+
+/*Table*/
+#TowRowTable {
+    width: 640px;
+    margin-left: 114px;
+    margin-top: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align:center;
+
+}
+
+#TowRowTable2 {
+    width: 640px;
+    margin-left: 114px;
+    margin-top: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align:center;
+
+}
+
+.tableTitleTowRow {
+    background-color: #E6E6E6;
+    height: 50px
+}
+
+.trtRow { 
+    height: 50px
+}
+
+.trtRow:hover {
+    background-color: #8FFF80;
+    opacity: 0.7;
+}
+
+#firstPur{
+    width: 52px; 
+    height: 30px;
+}
+
+#secondPur{
+    width: 51px; 
+    height: 44px;
+}
+
+.redText {
+    display:inline;
+    font-weight:bold; 
+    color: #db3b26;
+}
+
+.orangeText {
+    display:inline; 
+    font-weight:bold; 
+    color: #efbb40;
+}
+.greenText {
+    display:inline;
+    font-weight:bold; 
+    color: #81d452
+}
+
+.zoomIn {
+    margin-bottom: 7px;
+}
+
+.moreDetails {
+    opacity: 0.5;
+    padding-right: 5px;
+}
+
+.VA-Link {
+    position: relative; 
+    margin-left: 708px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#buildReport {
+    display: block;
+    width: 205px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    border: none;
+    background-color: #cbe8ba;
+    font-size: 18px;
+    color: #232323;
+}
+
+#buildReport:hover {
+    transform: scale(1.1);
+    transition: ease 300ms;
+    cursor: pointer;
+}
+
+#buildReportBtn {
+    display: block;
+    width: 205px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    border: none;
+    background-color: #cbe8ba;
+    font-size: 18px;
+    color: #232323;
+}
+
+#buildReportBtn:hover {
+    transform: scale(1.1);
+    transition: ease 300ms;
+    cursor: pointer;
+}
+
+/* Report Builder*/
+#repotBody {
+    position: relative;
+    float: left;
+}
+
+
+#repTitle
+{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#fild { 
+    margin-left: 50px;
+    position: relative;
+}
+
+.form-check-input{
+    position: relative;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#fild > p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fild > label{
+    font-size: 18px;
+}
+
+span,h3 {
+    display: inline-block;
+}
+
+ol,
+ul {
+  padding-left: 0rem;
+}
+
+p {
+    margin:0rem;
+}
+
+.form-label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.wideInput {
+    width: 430px;
+}
+
+.averageInput {
+    width: 250px;
+}
+
+.narrowInput {
+    width: 50px;
+}
+
+#newReport {
+    margin-left: 37px;
+}
+
+#reportBuilderLeftSide {
+    float: left;
+}
+
+#message {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#reportBuilder {
+    display: flex;
+    margin-top: -65px;
+}
+
+#message > span {
+    font-size: 16px;
+    
+}
+
+#message > h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+/* Modal Content/Box */
+.modal-content {
+    background-color: #cbe8ba;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%; /* Could be more or less, depending on screen size */
+    align-items: center;
+}
+  
+/* The Close Button */
+.closeModal {
+    color: #232323;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.closeModal:hover,
+.closeModal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blur {
+    filter: blur(1px);
+}
+
+/* responsivness */
+@media screen and (max-width:1366px) {
+
+    .wrapper {
+        width: 1290px;
+    }
+
+    header {
+        width: 1290px;
+    }
+
+    #breadcrumbsContainer {
+        width: 1290px;
+    }
+
+    footer {
+        width: 1290px;
+    }
+
+    /* .mobileNav {
+        display: none;
+    } */
+}
+
+
+@media screen and (max-width:1300px) {
+
+    #HomePagerightSide {
+        display: block;
+    }
+
+    #top3Title {
+        font-size: 24px;
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    #first {
+        margin-top: 250px;
+    }
+
+    #third {
+        margin-bottom: 40px;
+    }
+
+    #verticalLine {
+        display: none;
+    }
+
+    #logoContainer {
+        display: none;;
+    }
+
+    #nameJobImg  > p {
+        margin-top: 67px;
+    }
+    
+    #nameJobImg > img {
+        margin-top: 50px;
+    }
+
+    #HomePageleftSide {
+        margin-bottom: 30px;
+    }
+
+    #patientsReportTable {
+        width: 750px;
+    }
+
+    #verticalLineReviewProfile {
+        display: none;
+    }
+
+    #ReviewProfile-RightSide {
+        margin-top: 100px;
+        float: left;
+    }
+
+    #TowRowTable {
+        margin-left: 65px;
+    }
+
+    #TowRowTable2 {
+        margin-left: 65px;
+    }
+
+    #patientPur {
+        margin-left: 65px;
+    }
+
+    #patientRep {
+        margin-left: 65px;
+    }
+
+    .VA-Link {
+        margin-left: 658px;
+    }
+
+    #nav1 > li {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        width: 750px;
+    }
+
+    header {
+        width: 750px;
+        height: 106px;
+        padding-bottom: 60px;
+    }
+
+    #breadcrumbsContainer {
+        width: 750px;
+    }
+
+    footer {
+        width: 750px;
+    }
+
+    /* .mobileNav {
+        display: none;
+    } */
+
+}
+
+
+@media screen and (max-width:770px) {
+ /* For mobile phones: */
+
+    .wrapper {
+        width: 480px;
+    }
+
+    header {
+        width: 480px;
+        display: block;
+    }
+
+    #nav1 {
+        display: none;
+    }
+
+    /* Style the navigation menu */
+    .mobileNav {
+        overflow: hidden;
+        background-color: #5de44c;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .mobileNav #myLinks {
+        display: none;
+    }
+    
+    /* Style navigation menu links */
+    .mobileNav a {
+        color: white;
+        padding: 10px 12px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .mobileNav a.icon {
+        background: #20b90c;
+        display: block;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .mobileNav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+  
+
+    #breadcrumbsContainer {
+        width: 480px;
+        height: 40px;
+    }
+
+    #HomePagerightSide {
+        display: block;
+    }
+
+    #top3Title {
+        margin: 0 auto;
+        font-size: 28px;
+        margin-top: 100px;
+        padding-bottom: 50px;
+        margin-left: 90px;
+
+    }
+
+    #first {
+        margin: 0 auto;
+        margin-top: 250px;
+
+    }
+    #second {
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    #third {
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .horizontalLineRightSide {
+        width: 330px;
+        margin: 0 auto;
+        margin-top: 25px;
+    
+    }
+
+    #nameJobImg  > p {
+        font-size: 14px;
+    }
+
+    #HomePageleftSide {
+        margin-bottom: 30px;
+    }
+
+    #searchBar {
+        width: 150px;
+        left: 10px; 
+    }
+
+    #patientsReportTable {
+        width: 750px;
+    }
+
+    #verticalLineReviewProfile {
+        display: none;
+    }
+
+    #ReviewProfile-RightSide {
+        margin-top: 100px;
+        float: left;
+    }
+
+    #TowRowTable {
+        margin-left: 65px;
+    }
+
+    #TowRowTable2 {
+        margin-left: 65px;
+    }
+
+    #patientPur {
+        margin-left: 65px;
+    }
+
+    #patientRep {
+        margin-left: 65px;
+    }
+
+    .VA-Link {
+        margin-left: 658px;
+    }
+
+    footer {
+        display: none;
+    }
+
+
+    #todo {
+        margin-left: 30px;
+        margin-top: 70px;
+        width: 110px;
+    }
+    
+    #todo > p {
+        font-size: 26px;
+    }
+
+    #reviewPatients {
+        margin-top: 120px;
+    }
+
+    #reviewPatientsSub1Icon {
+        background-size: 30px;
+    }
+
+    #reviewPatientsSub2Icon {
+        background-size: 30px;
+    }
+
+    .reviewPatientsSub {
+        font-size: 20px;
+    }
+
+    #reviewProducts {
+        margin-left: -336px;
+    }
+
+    #reviewProductsSub1Icon {
+        background-size: 30px;
+    }
+
+    #reviewProductsSub2Icon {
+        background-size: 30px;
+    }
+
+    .reviewProductsSub {
+        font-size: 20px;
+    }
+
+  
+
+}
+
+/* login & register */
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	width:100%;
+	margin:auto;
+    margin-top: 50px;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+    color:#6a6f8c;
+    font:600 16px/18px 'Open Sans',sans-serif;
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:50px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+}
+
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#1161ee;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#1161ee;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+
+.foot-lnk{
+	text-align:center;
+}
+
+.button:hover {
+    cursor: pointer;
+} 
+
+.logout{
+    float: right;
+    margin-right: 20px;
+}
+
+.logout > img {
+    width: 28px;
+    height: 28px;
+}
+
+.error-message {
+    color: rgb(255, 118, 118);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
