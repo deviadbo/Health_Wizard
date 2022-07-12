@@ -1,7 +1,6 @@
 # Health_Wizard
 
-### A system that directs the consumer to food consumption
-Healthier for a healthier body
+### A system that directs the consumer to food consumption Healthier for a healthier body
 
 ### Architecture
 <p align="center"><img src=Architecture.jpg height="242"/></p>
